@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
         - name: users-service
-          image: users-service
-          imagePullPolicy: Never
+          image: atropos0116/users-service
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
